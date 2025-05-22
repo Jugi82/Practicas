@@ -1,0 +1,105 @@
+<mjml>
+    
+    <mj-head>
+
+        <mj-style>
+            @media (max-width: 600px) {
+
+                .social-element-text span{
+
+                    display: none !important;
+
+                }
+
+            }
+        </mj-style>
+        
+    </mj-head>
+    <mj-body background-color="#141413">
+        <mj-section>
+            <mj-column width="100%">
+
+                <mj-text font-weight="bold" font-family="roboto" font-size="40px" color="white">Gana 2 entradas para ver el GP de motociclismo de cheste</mj-text>
+
+            </mj-column> 
+        </mj-section>
+
+        <mj-section padding="0">
+            <mj-column>
+
+                <mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_mail_2Ruedas_2024_expositores.jpg" alt=""/>
+    
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="0">
+            <mj-column>
+                
+                <mj-divider border-width="4px" border-color="#E6323E"/>
+
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-column>
+                
+                <mj-text font-family="roboto" color="#CDCCCC">Tenga la oportunidad de ganar 2 entradas para
+                el espectaculo de GP de motociclismo que se va a celebrar en el circuito de cheste el <strong>24 de noviembre
+                 del 2024</strong></mj-text>
+
+                <mj-text font-family="roboto" color="#CDCCCC">Para participar en el sorteo y tener la oportunidad
+                 de ganar las entradas rellena el siguiente cuestionario:</mj-text>
+
+                <mj-button href="https://dosruedas.feriavalencia.com/" background-color="#E6323E">
+                    Participar
+                </mj-button>
+
+                <mj-text font-family="roboto" color="#CDCCCC">Si desea saber mas hacerca del evento visite 
+                nuestra pagina visite la pagina oficial <strong>2 Ruedas</strong> o sus redes sociales:</mj-text>
+
+                <mj-button href="https://dosruedas.feriavalencia.com/" background-color="#E6323E">
+                    Mas Info
+                </mj-button>
+
+            </mj-column>
+            
+        </mj-section>
+
+        <mj-section padding="0">
+            <mj-column>
+                
+                <mj-divider border-width="4px" border-color="#E6323E"/>
+
+            </mj-column>
+        </mj-section>
+
+        <mj-section>
+            <mj-group>
+                <mj-column>
+                    
+                    <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+                        <mj-social-element line-height="34px" name="facebook" href="https://www.facebook.com/2RuedasFeriaValencia/" css-class="social-element-text">
+                            <span>Facebook</span>
+                        </mj-social-element>
+                        <mj-social-element line-height="34px" name="instagram" href="https://www.instagram.com/feriadosruedas/" css-class="social-element-text">
+                            <span>Instagram</span>
+                        </mj-social-element>
+                        <mj-social-element icon-size="34px" name="X" href="https://twitter.com/2ruedas_fv" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/X_icon_2.svg/1483px-X_icon_2.svg.png" css-class="social-element-text">
+                            <span>X</span>
+                        </mj-social-element>
+                        <mj-social-element line-height="34px" name="youtube" href="https://www.youtube.com/watch?v=7c2p-ntm50Q" css-class="social-element-text">
+                            <span>Youtube</span>
+                        </mj-social-element>
+                    </mj-social>
+
+                </mj-column>
+            </mj-group>
+
+        </mj-section>
+
+
+    </mj-body>
+
+
+
+</mjml>
