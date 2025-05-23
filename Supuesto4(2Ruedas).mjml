@@ -3,7 +3,7 @@
     <mj-head>
 
         <mj-style>
-            @media (max-width: 600px) {
+            @media (max-width: 480px) {
 
                 .social-element-text span{
 
