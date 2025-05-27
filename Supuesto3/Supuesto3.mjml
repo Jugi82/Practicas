@@ -1,0 +1,43 @@
+<mjml>
+    
+    <mj-head>
+        
+    </mj-head>
+
+    <mj-body>
+
+        <mj-section background-color="white">
+            
+            <mj-column>
+                
+                <mj-image width="600px" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Cabecera_Email_Expojove_2024.jpg" alt="expojove-image" />
+
+            </mj-column>
+            
+        </mj-section>
+
+        <mj-section background-color="white">
+            
+            <mj-column width="100%">
+
+                <mj-text font-weight="bold" font-family="roboto" font-size="40px" color="#094745">Recoradtorio de los servicios dispenibles para expositores</mj-text>
+
+            </mj-column>
+
+        </mj-section>
+
+        <mj-section background-color="white">
+
+            <mj-column>
+                
+            </mj-column>
+
+            <mj-column>
+                
+            </mj-column>
+            
+        </mj-section>
+        
+    </mj-body>
+
+</mjml>

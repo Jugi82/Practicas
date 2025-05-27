@@ -2,19 +2,20 @@
     
     <mj-head>
 
-        <mj-style>
-            @media (max-width: 480px) {
+       <mj-style>
+        @media (max-width: 480px) {
 
-                .social-element-text span{
+            .social-element-text span{
 
-                    display: none !important;
-
-                }
+                display: none !important;
 
             }
+
+        }
         </mj-style>
         
     </mj-head>
+
     <mj-body background-color="#141413">
         <mj-section>
             <mj-column width="100%">
@@ -27,7 +28,7 @@
         <mj-section padding="0">
             <mj-column>
 
-                <mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_mail_2Ruedas_2024_expositores.jpg" alt=""/>
+                <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Cabecera_mail_2Ruedas_2024_expositores.jpg" alt=""/>
     
             </mj-column>
         </mj-section>
@@ -84,7 +85,7 @@
                         <mj-social-element line-height="34px" name="instagram" href="https://www.instagram.com/feriadosruedas/" css-class="social-element-text">
                             <span>Instagram</span>
                         </mj-social-element>
-                        <mj-social-element icon-size="34px" name="X" href="https://twitter.com/2ruedas_fv" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/X_icon_2.svg/1483px-X_icon_2.svg.png" css-class="social-element-text">
+                        <mj-social-element icon-size="34px" name="X" href="https://twitter.com/2ruedas_fv" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/X_Icon2.png" css-class="social-element-text">
                             <span>X</span>
                         </mj-social-element>
                         <mj-social-element line-height="34px" name="youtube" href="https://www.youtube.com/watch?v=7c2p-ntm50Q" css-class="social-element-text">
