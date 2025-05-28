@@ -29,11 +29,15 @@
         <mj-section background-color="white">
 
             <mj-column>
-                
+                <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Autobus_Publicidad_Exopjove.png" alt="" />
             </mj-column>
-
+            
             <mj-column>
-                
+
+                <mj-text font-family="roboto" font-size="20px" color="#7A7A7A">
+                    Intensa campaña de comunicación y publicidad. Dentro de la cual tambien se inclulle una plataforma para promocionar productos o servicios
+                </mj-text>
+
             </mj-column>
             
         </mj-section>
