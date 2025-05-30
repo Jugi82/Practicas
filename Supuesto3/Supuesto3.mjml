@@ -2,6 +2,18 @@
     
     <mj-head>
         
+        <mj-style>
+        @media (max-width: 480px) {
+
+            .social-element-text span{
+
+                display: none !important;
+
+            }
+
+        }
+        </mj-style>
+
     </mj-head>
 
     <mj-body>
@@ -10,13 +22,13 @@
             
             <mj-column>
                 
-                <mj-image width="600px" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Cabecera_Email_Expojove_2024.jpg" alt="expojove-image" />
+                <mj-image  width="600px" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Cabecera_Email_Expojove_2024.jpg" alt="expojove-image" />
 
             </mj-column>
             
         </mj-section>
 
-        <mj-section background-color="white">
+        <mj-section padding-bottom="40px" background-color="white">
             
             <mj-column width="100%">
 
@@ -26,7 +38,7 @@
 
         </mj-section>
 
-        <mj-section background-color="white">
+        <mj-section background-color="#8DD8CE">
 
             <mj-column>
                 <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Autobus_Publicidad_Exopjove.png" alt="" />
@@ -34,12 +46,87 @@
             
             <mj-column>
 
-                <mj-text font-family="roboto" font-size="20px" color="#7A7A7A">
+                <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#094745">
                     Intensa campaña de comunicación y publicidad. Dentro de la cual tambien se inclulle una plataforma para promocionar productos o servicios
                 </mj-text>
 
             </mj-column>
             
+        </mj-section>
+
+        <mj-section direction="rtl" background-color="white">
+            
+            <mj-column>
+
+                <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ivaj.jpg" alt=""/>
+
+            </mj-column>
+
+            <mj-column>
+
+                <mj-text font-family="roboto" font-size="20px" color="#094745">
+                    La posibilidad de montar talleres con la previa comunicacion i aprobacion de expojove
+                </mj-text>
+                
+            </mj-column>
+            
+        </mj-section>
+
+        <mj-section background-color="#8DD8CE">
+
+            <mj-column>
+                <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/que-es-asesoramiento.jpeg" alt="" />
+            </mj-column>
+            
+            <mj-column>
+
+                <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#094745">
+                    Servicio de asesoramiento
+                </mj-text>
+
+            </mj-column>
+            
+        </mj-section>
+
+        <mj-section direction="rtl" background-color="white">
+            
+            <mj-column>
+
+                <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/20220902_122126-1024x768.jpg" alt="" />
+
+            </mj-column>
+
+            <mj-column>
+                
+                <mj-text font-family="roboto" font-size="20px" color="#094745">
+                    Supervicion del proseso y planificacion del montaje i desmontaje de los stands para hasegurar el cumplimiento de la normativa y la corecta organizacion en conjunto con otros expositores
+                </mj-text>
+
+            </mj-column>
+            
+        </mj-section>
+
+        <mj-section background-color="#003087" >
+            
+            <mj-column>
+                
+                <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+                    <mj-social-element color="white" line-height="34px" name="instagram" href="https://www.instagram.com/expojovevlc/" css-class="social-element-text">
+                        <span>Instagram</span>
+                    </mj-social-element>
+                    <mj-social-element color="white" line-height="34px" name="facebook" href="https://www.facebook.com/expojove.valencia/" css-class="social-element-text">
+                        <span>Facebook</span>
+                    </mj-social-element>
+                    <mj-social-element color="white" icon-size="34px" name="twitter" href="https://twitter.com/ExpoJoveVLC" css-class="social-element-text">
+                        <span>X</span>
+                    </mj-social-element>
+                    <mj-social-element color="white" line-height="34px" name="youtube" href="https://www.youtube.com/@ExpojoveVLC2" css-class="social-element-text">
+                        <span>Youtube</span>
+                    </mj-social-element>
+                </mj-social>
+
+            </mj-column>
+
         </mj-section>
         
     </mj-body>
