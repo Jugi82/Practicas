@@ -79,20 +79,38 @@
                 <mj-column>
                     
                     <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-                        <mj-social-element line-height="34px" name="facebook" href="https://www.facebook.com/2RuedasFeriaValencia/" css-class="social-element-text">
+                        <mj-social-element line-height="34px" name="facebook" href="https://www.facebook.com/2RuedasFeriaValencia/" css-class="social-element-text" color="#333333">
                             <span>Facebook</span>
                         </mj-social-element>
-                        <mj-social-element line-height="34px" name="instagram" href="https://www.instagram.com/feriadosruedas/" css-class="social-element-text">
+                        <mj-social-element line-height="34px" name="instagram" href="https://www.instagram.com/feriadosruedas/" css-class="social-element-text" color="#333333">
                             <span>Instagram</span>
                         </mj-social-element>
-                        <mj-social-element icon-size="34px" name="X" href="https://twitter.com/2ruedas_fv" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/X_Icon2.png" css-class="social-element-text">
+                        <mj-social-element icon-size="34px" name="X" href="https://twitter.com/2ruedas_fv" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/X_Icon2.png" css-class="social-element-text" color="#333333">
                             <span>X</span>
                         </mj-social-element>
-                        <mj-social-element line-height="34px" name="youtube" href="https://www.youtube.com/watch?v=7c2p-ntm50Q" css-class="social-element-text">
+                        <mj-social-element line-height="34px" name="youtube" href="https://www.youtube.com/watch?v=7c2p-ntm50Q" css-class="social-element-text" color="#333333">
                             <span>Youtube</span>
                         </mj-social-element>
                     </mj-social>
 
+                </mj-column>
+            </mj-group>
+
+        </mj-section>
+
+        <mj-section>
+
+            <mj-group>
+                <mj-column>
+
+                    <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Patrocina:</mj-text>
+                    
+                </mj-column>
+
+                <mj-column>
+
+                    <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Organiza:</mj-text>
+                    
                 </mj-column>
             </mj-group>
 
