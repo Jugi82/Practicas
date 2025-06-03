@@ -128,6 +128,21 @@
             </mj-column>
 
         </mj-section>
+
+        <mj-section background-color="#003087">
+            
+            <mj-column>
+
+                <mj-social>
+                    <mj-social-element></mj-social-element>
+                    <mj-social-element></mj-social-element>
+                    <mj-social-element></mj-social-element>
+                    <mj-social-element></mj-social-element>
+                </mj-social>
+                
+            </mj-column>
+
+        </mj-section>   
         
     </mj-body>
 

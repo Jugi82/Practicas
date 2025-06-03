@@ -3,15 +3,32 @@
     <mj-head>
 
        <mj-style>
-        @media (max-width: 480px) {
+            @media (max-width: 480px) {
 
-            .social-element-text span{
+                .social-element-text span{
 
-                display: none !important;
+                    display: none !important;
+
+                }
+
+                .group_nonẹ̣̣_movile{
+
+                    display: none !important;
+
+                }
 
             }
 
-        }
+            @media (min-width: 481px) {
+
+                .group_nonẹ̣̣_decktop{
+
+                    display: none !important;
+
+                }
+
+            }
+
         </mj-style>
         
     </mj-head>
@@ -44,18 +61,18 @@
         <mj-section>
             <mj-column>
                 
-                <mj-text font-family="roboto" color="#CDCCCC">Tenga la oportunidad de ganar 2 entradas para
+                <mj-text font-family="roboto" font-size="15px" color="#CDCCCC">Tenga la oportunidad de ganar 2 entradas para
                 el espectaculo de GP de motociclismo que se va a celebrar en el circuito de cheste el <strong>24 de noviembre
                  del 2024</strong></mj-text>
 
-                <mj-text font-family="roboto" color="#CDCCCC">Para participar en el sorteo y tener la oportunidad
+                <mj-text font-family="roboto" font-size="15px" color="#CDCCCC">Para participar en el sorteo y tener la oportunidad
                  de ganar las entradas rellena el siguiente cuestionario:</mj-text>
 
                 <mj-button href="https://dosruedas.feriavalencia.com/" background-color="#E6323E">
                     Participar
                 </mj-button>
 
-                <mj-text font-family="roboto" color="#CDCCCC">Si desea saber mas hacerca del evento visite 
+                <mj-text font-family="roboto" font-size="15px" color="#CDCCCC">Si desea saber mas hacerca del evento visite 
                 nuestra pagina visite la pagina oficial <strong>2 Ruedas</strong> o sus redes sociales:</mj-text>
 
                 <mj-button href="https://dosruedas.feriavalencia.com/" background-color="#E6323E">
@@ -98,21 +115,61 @@
 
         </mj-section>
 
-        <mj-section>
+        <mj-section css-class="group_nonẹ̣̣_movile">
 
             <mj-group>
-                <mj-column>
+                
+                <mj-column width="42%">
 
                     <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Patrocina:</mj-text>
                     
+                    <mj-image href="https://www.mapfre.es/particulares/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Mapfre_Icon.png" alt="Mapfre_Icon" />
+
                 </mj-column>
 
-                <mj-column>
+                <mj-column width="58%">
 
                     <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Organiza:</mj-text>
                     
+                    <mj-social>
+                        <mj-social-element icon-size="101px" href="https://www.caixapopular.es/es" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/CaixaPopular_Icon.png" alt="CaixaPopular_Icon"></mj-social-element>
+                        <mj-social-element icon-size="100px" href="https://www.gva.es/va/inicio/presentacion" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/GeneralitatValenciana_Icon.png" alt="GeneralitatValenciana_Icon"></mj-social-element>
+                        <mj-social-element icon-size="100px" href="https://www.comunitatvalenciana.com/es/turismo-deportivo/btt-cicloturismo-y-ciclismo" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ComunitatValenciana_Icon.png" alt="ComunitatValenciana_Icon"></mj-social-element>
+                        <mj-social-element icon-size="102px" href="https://www.escueladeconductores.es/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/EscuelaDeConductores_Icon.png" alt="EscuelaDeConductores_Icon"></mj-social-element>
+                        <mj-social-element icon-size="100px" href="https://maximo-moto.com/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Bela_Icon.png" alt="Bela_Icon"></mj-social-element>
+                        <mj-social-element icon-size="100px" href="https://arrozdacsa.com/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ArrozDacsa_Icon.png" alt="ArrozDacsa_Icon"></mj-social-element>
+                    </mj-social>
+
                 </mj-column>
+
             </mj-group>
+
+        </mj-section>
+
+        <mj-section css-class="group_nonẹ̣̣_decktop">
+                
+                <mj-column width="300px">
+
+                    <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Patrocina:</mj-text>
+                    
+                    <mj-image href="https://www.mapfre.es/particulares/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Mapfre_Icon.png" alt="Mapfre_Icon" />
+
+                </mj-column>
+
+                <mj-column width="300px">
+
+                    <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Organiza:</mj-text>
+                    
+                    <mj-social>
+                        <mj-social-element icon-size="101px" href="https://www.caixapopular.es/es" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/CaixaPopular_Icon.png" alt="CaixaPopular_Icon"></mj-social-element>
+                        <mj-social-element icon-size="100px" href="https://www.gva.es/va/inicio/presentacion" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/GeneralitatValenciana_Icon.png" alt="GeneralitatValenciana_Icon"></mj-social-element>
+                        <mj-social-element icon-size="100px" href="https://www.comunitatvalenciana.com/es/turismo-deportivo/btt-cicloturismo-y-ciclismo" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ComunitatValenciana_Icon.png" alt="ComunitatValenciana_Icon"></mj-social-element>
+                        <mj-social-element icon-size="102px" href="https://www.escueladeconductores.es/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/EscuelaDeConductores_Icon.png" alt="EscuelaDeConductores_Icon"></mj-social-element>
+                        <mj-social-element icon-size="100px" href="https://maximo-moto.com/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Bela_Icon.png" alt="Bela_Icon"></mj-social-element>
+                        <mj-social-element icon-size="100px" href="https://arrozdacsa.com/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ArrozDacsa_Icon.png" alt="ArrozDacsa_Icon"></mj-social-element>
+                    </mj-social>
+
+                </mj-column>
 
         </mj-section>
 
