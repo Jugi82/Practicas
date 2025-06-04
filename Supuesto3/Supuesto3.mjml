@@ -3,15 +3,33 @@
     <mj-head>
         
         <mj-style>
+
         @media (max-width: 480px) {
 
-            .social-element-text span{
+                .social-element-text span{
 
-                display: none !important;
+                    display: none !important;
+
+                }
+
+                .group_nonẹ̣̣_movile{
+
+                    display: none !important;
+
+                }
 
             }
 
-        }
+            @media (min-width: 481px) {
+
+                .group_nonẹ̣̣_decktop{
+
+                    display: none !important;
+
+                }
+
+            }
+
         </mj-style>
 
     </mj-head>
@@ -117,8 +135,8 @@
                     <mj-social-element color="white" line-height="34px" name="facebook" href="https://www.facebook.com/expojove.valencia/" css-class="social-element-text">
                         <span>Facebook</span>
                     </mj-social-element>
-                    <mj-social-element color="white" icon-size="34px" name="twitter" href="https://twitter.com/ExpoJoveVLC" css-class="social-element-text">
-                        <span>X</span>
+                    <mj-social-element icon-size="31px" color="white" icon-size="34px" name="twitter" href="https://twitter.com/ExpoJoveVLC" css-class="social-element-text">
+                        <span>Twitter</span>
                     </mj-social-element>
                     <mj-social-element color="white" line-height="34px" name="youtube" href="https://www.youtube.com/@ExpojoveVLC2" css-class="social-element-text">
                         <span>Youtube</span>
@@ -129,20 +147,79 @@
 
         </mj-section>
 
-        <mj-section background-color="#003087">
+        <mj-section padding-left="25px" padding-right="25px" background-color="#003087">
             
             <mj-column>
 
-                <mj-social>
-                    <mj-social-element></mj-social-element>
-                    <mj-social-element></mj-social-element>
-                    <mj-social-element></mj-social-element>
-                    <mj-social-element></mj-social-element>
-                </mj-social>
-                
+                <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="white">Organiza:</mj-text>
+
             </mj-column>
 
         </mj-section>   
+
+        <mj-section css-class="group_nonẹ̣̣_movile" padding-left="46px" padding-right="46px" padding-top="0px" background-color="#003087">
+            
+            <mj-column>
+
+                <mj-image height="100px" padding="0" href="" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/AjuntamentValencia_IconBlue.png" alt="AjuntamentValencia"/>
+                
+            </mj-column>
+
+            <mj-column>
+
+                <mj-image height="100px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/FestesValencia_IconBlue.png" alt="FestesValencia"/>
+                
+            </mj-column>
+
+            <mj-column>
+
+                <mj-image height="100px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Expojove_IconBlue.png" alt="Expojove_IconBlue"/>
+                
+            </mj-column>
+
+            <mj-column>
+
+                <mj-image height="100px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/FeriaValencia_IconBlue.png" alt="FeriaValencia_IconBlue"/>
+                
+            </mj-column>
+
+        </mj-section>
+
+        <mj-section css-class="group_nonẹ̣̣_decktop" padding-left="46px" padding-right="46px" padding-top="0px" background-color="#003087">
+            
+            <mj-group width="400px">
+
+                <mj-column>
+
+                    <mj-image height="100px" padding="0" href="" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/AjuntamentValencia_IconBlue.png" alt="AjuntamentValencia"/>
+                    
+                </mj-column>
+
+                <mj-column>
+
+                    <mj-image height="100px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/FestesValencia_IconBlue.png" alt="FestesValencia"/>
+                    
+                </mj-column>
+
+            </mj-group>
+
+            <mj-group width="400px">
+
+                <mj-column>
+
+                    <mj-image height="100px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Expojove_IconBlue.png" alt="Expojove_IconBlue"/>
+                    
+                </mj-column>
+
+                <mj-column>
+
+                    <mj-image height="100px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/FeriaValencia_IconBlue.png" alt="FeriaValencia_IconBlue"/>
+                    
+                </mj-column>
+
+            </mj-group>
+
+        </mj-section>
         
     </mj-body>
 

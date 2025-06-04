@@ -3,6 +3,7 @@
     <mj-head>
 
        <mj-style>
+
             @media (max-width: 480px) {
 
                 .social-element-text span{
@@ -33,8 +34,8 @@
         
     </mj-head>
 
-    <mj-body background-color="#141413">
-        <mj-section>
+    <mj-body>
+        <mj-section background-color="#141413">
             <mj-column width="100%">
 
                 <mj-text font-weight="bold" font-family="roboto" font-size="40px" color="white">Gana 2 entradas para ver el GP de motociclismo de cheste</mj-text>
@@ -42,7 +43,7 @@
             </mj-column> 
         </mj-section>
 
-        <mj-section padding="0">
+        <mj-section background-color="#141413" padding="0">
             <mj-column>
 
                 <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Cabecera_mail_2Ruedas_2024_expositores.jpg" alt=""/>
@@ -50,7 +51,7 @@
             </mj-column>
         </mj-section>
 
-        <mj-section padding="0">
+        <mj-section background-color="#141413" padding="0">
             <mj-column>
                 
                 <mj-divider border-width="4px" border-color="#E6323E"/>
@@ -58,7 +59,7 @@
             </mj-column>
         </mj-section>
 
-        <mj-section>
+        <mj-section background-color="#141413">
             <mj-column>
                 
                 <mj-text font-family="roboto" font-size="15px" color="#CDCCCC">Tenga la oportunidad de ganar 2 entradas para
@@ -83,7 +84,7 @@
             
         </mj-section>
 
-        <mj-section padding="0">
+        <mj-section background-color="#141413" padding="0">
             <mj-column>
                 
                 <mj-divider border-width="4px" border-color="#E6323E"/>
@@ -91,7 +92,7 @@
             </mj-column>
         </mj-section>
 
-        <mj-section>
+        <mj-section background-color="#141413">
             <mj-group>
                 <mj-column>
                     
@@ -115,40 +116,43 @@
 
         </mj-section>
 
-        <mj-section css-class="group_nonẹ̣̣_movile">
+        <mj-section background-color="#141413" css-class="group_nonẹ̣̣_movile">
 
-            <mj-group>
+            <mj-column>
+
+                <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Patrocina:</mj-text>
                 
-                <mj-column width="42%">
+                <mj-image width="300px" href="https://www.mapfre.es/particulares/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Mapfre_Icon.png" alt="Mapfre_Icon" />
 
-                    <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Patrocina:</mj-text>
-                    
-                    <mj-image href="https://www.mapfre.es/particulares/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Mapfre_Icon.png" alt="Mapfre_Icon" />
-
-                </mj-column>
-
-                <mj-column width="58%">
-
-                    <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Organiza:</mj-text>
-                    
-                    <mj-social>
-                        <mj-social-element icon-size="101px" href="https://www.caixapopular.es/es" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/CaixaPopular_Icon.png" alt="CaixaPopular_Icon"></mj-social-element>
-                        <mj-social-element icon-size="100px" href="https://www.gva.es/va/inicio/presentacion" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/GeneralitatValenciana_Icon.png" alt="GeneralitatValenciana_Icon"></mj-social-element>
-                        <mj-social-element icon-size="100px" href="https://www.comunitatvalenciana.com/es/turismo-deportivo/btt-cicloturismo-y-ciclismo" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ComunitatValenciana_Icon.png" alt="ComunitatValenciana_Icon"></mj-social-element>
-                        <mj-social-element icon-size="102px" href="https://www.escueladeconductores.es/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/EscuelaDeConductores_Icon.png" alt="EscuelaDeConductores_Icon"></mj-social-element>
-                        <mj-social-element icon-size="100px" href="https://maximo-moto.com/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Bela_Icon.png" alt="Bela_Icon"></mj-social-element>
-                        <mj-social-element icon-size="100px" href="https://arrozdacsa.com/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ArrozDacsa_Icon.png" alt="ArrozDacsa_Icon"></mj-social-element>
-                    </mj-social>
-
-                </mj-column>
-
-            </mj-group>
+            </mj-column>
 
         </mj-section>
 
-        <mj-section css-class="group_nonẹ̣̣_decktop">
+        <mj-section background-color="#141413" css-class="group_nonẹ̣̣_movile">
+
+            <mj-column>
+
+                <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Organiza:</mj-text>
                 
-                <mj-column width="300px">
+                <mj-social>
+                    <mj-social-element icon-size="101px" href="https://www.caixapopular.es/es" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/CaixaPopular_Icon.png" alt="CaixaPopular_Icon"></mj-social-element>
+                    <mj-social-element icon-size="100px" href="https://www.gva.es/va/inicio/presentacion" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/GeneralitatValenciana_Icon.png" alt="GeneralitatValenciana_Icon"></mj-social-element>
+                    <mj-social-element icon-size="100px" href="https://www.comunitatvalenciana.com/es/turismo-deportivo/btt-cicloturismo-y-ciclismo" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ComunitatValenciana_Icon.png" alt="ComunitatValenciana_Icon"></mj-social-element>
+                </mj-social>
+
+                <mj-social>
+                    <mj-social-element icon-size="102px" href="https://www.escueladeconductores.es/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/EscuelaDeConductores_Icon.png" alt="EscuelaDeConductores_Icon"></mj-social-element>
+                    <mj-social-element icon-size="100px" href="https://maximo-moto.com/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Bela_Icon.png" alt="Bela_Icon"></mj-social-element>
+                    <mj-social-element icon-size="100px" href="https://arrozdacsa.com/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ArrozDacsa_Icon.png" alt="ArrozDacsa_Icon"></mj-social-element>
+                </mj-social>
+
+            </mj-column>
+
+        </mj-section>
+
+        <mj-section background-color="#141413" css-class="group_nonẹ̣̣_decktop">
+                
+                <mj-column>
 
                     <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Patrocina:</mj-text>
                     
@@ -156,7 +160,7 @@
 
                 </mj-column>
 
-                <mj-column width="300px">
+                <mj-column>
 
                     <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Organiza:</mj-text>
                     
