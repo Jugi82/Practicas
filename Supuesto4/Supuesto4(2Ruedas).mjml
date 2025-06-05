@@ -10,6 +10,8 @@
 
                     display: none !important;
 
+                    
+
                 }
 
                 .group_nonẹ̣̣_movile{
@@ -34,7 +36,7 @@
         
     </mj-head>
 
-    <mj-body>
+    <mj-body background-color="#292C33">
         <mj-section background-color="#141413">
             <mj-column width="100%">
 
@@ -59,22 +61,22 @@
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#141413">
+        <mj-section padding-left="20px" padding-right="20px" background-color="#141413">
             <mj-column>
                 
                 <mj-text font-family="roboto" font-size="15px" color="#CDCCCC">Tenga la oportunidad de ganar 2 entradas para
-                el espectaculo de GP de motociclismo que se va a celebrar en el circuito de cheste el <strong>24 de noviembre
+                el espectáculo de GP de motociclismo que se va a celebrar en el circuito de Cheste el <strong>24 de noviembre
                  del 2024</strong></mj-text>
 
                 <mj-text font-family="roboto" font-size="15px" color="#CDCCCC">Para participar en el sorteo y tener la oportunidad
-                 de ganar las entradas rellena el siguiente cuestionario:</mj-text>
+                 de ganar las entradas, rellena el siguiente cuestionario:</mj-text>
 
                 <mj-button href="https://dosruedas.feriavalencia.com/" background-color="#E6323E">
                     Participar
                 </mj-button>
 
-                <mj-text font-family="roboto" font-size="15px" color="#CDCCCC">Si desea saber mas hacerca del evento visite 
-                nuestra pagina visite la pagina oficial <strong>2 Ruedas</strong> o sus redes sociales:</mj-text>
+                <mj-text font-family="roboto" font-size="15px" color="#CDCCCC">Si desea saber mäs acerca del evento visite 
+                nuestra página oficial <strong>2 Ruedas</strong> o sus redes sociales:</mj-text>
 
                 <mj-button href="https://dosruedas.feriavalencia.com/" background-color="#E6323E">
                     Mas Info

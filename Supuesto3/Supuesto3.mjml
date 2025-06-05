@@ -36,7 +36,7 @@
 
     <mj-body>
 
-        <mj-section background-color="white">
+        <mj-section background-color="#F2F4F5">
             
             <mj-column>
                 
@@ -46,33 +46,33 @@
             
         </mj-section>
 
-        <mj-section padding-bottom="40px" background-color="white">
+        <mj-section padding-bottom="40px" background-color="#F2F4F5">
             
             <mj-column width="100%">
 
-                <mj-text font-weight="bold" font-family="roboto" font-size="40px" color="#094745">Recoradtorio de los servicios dispenibles para expositores</mj-text>
+                <mj-text font-weight="bold" font-family="roboto" font-size="40px" color="#094745">Recordatorio de los servicios disponibles para expositores</mj-text>
 
             </mj-column>
 
         </mj-section>
 
-        <mj-section background-color="#8DD8CE">
+        <mj-section  background-color="#8DD8CE">
 
             <mj-column>
-                <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Autobus_Publicidad_Exopjove.png" alt="" />
+                <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/AutobusExpojove.png" alt="" />
             </mj-column>
             
             <mj-column>
 
                 <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#094745">
-                    Intensa campaña de comunicación y publicidad. Dentro de la cual tambien se inclulle una plataforma para promocionar productos o servicios
+                    Intensa campaña de comunicación y publicidad. Dentro de la cual también se incluye una plataforma para promocionar productos o servicios
                 </mj-text>
 
             </mj-column>
             
         </mj-section>
 
-        <mj-section direction="rtl" background-color="white">
+        <mj-section direction="rtl" background-color="#F2F4F5">
             
             <mj-column>
 
@@ -83,7 +83,7 @@
             <mj-column>
 
                 <mj-text font-family="roboto" font-size="20px" color="#094745">
-                    La posibilidad de montar talleres con la previa comunicacion i aprobacion de expojove
+                    La posibilidad de montar talleres con la previa comunicación y aprobación de EXPOJOVE
                 </mj-text>
                 
             </mj-column>
@@ -106,7 +106,7 @@
             
         </mj-section>
 
-        <mj-section direction="rtl" background-color="white">
+        <mj-section direction="rtl" background-color="#F2F4F5">
             
             <mj-column>
 
@@ -117,7 +117,7 @@
             <mj-column>
                 
                 <mj-text font-family="roboto" font-size="20px" color="#094745">
-                    Supervicion del proseso y planificacion del montaje i desmontaje de los stands para hasegurar el cumplimiento de la normativa y la corecta organizacion en conjunto con otros expositores
+                    Supervición del proceso y planificación del montaje y desmontaje de los stands para hasegurar el cumplimiento de la normativa y la correcta organización en conjunto con otros expositores
                 </mj-text>
 
             </mj-column>
