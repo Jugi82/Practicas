@@ -2,38 +2,6 @@
     
     <mj-head>
 
-       <mj-style>
-
-            @media (max-width: 480px) {
-
-                .social-element-text span{
-
-                    display: none !important;
-
-                    
-
-                }
-
-                .group_nonẹ̣̣_movile{
-
-                    display: none !important;
-
-                }
-
-            }
-
-            @media (min-width: 481px) {
-
-                .group_nonẹ̣̣_decktop{
-
-                    display: none !important;
-
-                }
-
-            }
-
-        </mj-style>
-        
     </mj-head>
 
     <mj-body background-color="#292C33">
@@ -46,7 +14,7 @@
         </mj-section>
 
         <mj-section background-color="#141413" padding="0">
-            <mj-column>
+            <mj-column >
 
                 <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Cabecera_mail_2Ruedas_2024_expositores.jpg" alt=""/>
     
@@ -95,30 +63,29 @@
         </mj-section>
 
         <mj-section background-color="#141413">
-            <mj-group>
+            
                 <mj-column>
                     
                     <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-                        <mj-social-element line-height="34px" name="facebook" href="https://www.facebook.com/2RuedasFeriaValencia/" css-class="social-element-text" color="#333333">
-                            <span>Facebook</span>
+                        <mj-social-element line-height="34px" name="facebook" href="https://www.facebook.com/2RuedasFeriaValencia/" css-class="social-element-text" color="#141413">
+                            <span>.</span>
                         </mj-social-element>
-                        <mj-social-element line-height="34px" name="instagram" href="https://www.instagram.com/feriadosruedas/" css-class="social-element-text" color="#333333">
-                            <span>Instagram</span>
+                        <mj-social-element line-height="34px" name="instagram" href="https://www.instagram.com/feriadosruedas/" css-class="social-element-text" color="#141413">
+                            <span>.</span>
                         </mj-social-element>
-                        <mj-social-element icon-size="34px" name="X" href="https://twitter.com/2ruedas_fv" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/X_Icon2.png" css-class="social-element-text" color="#333333">
-                            <span>X</span>
+                        <mj-social-element icon-size="33px" name="X" href="https://twitter.com/2ruedas_fv" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/X_Icon2.png" css-class="social-element-text" color="#141413">
+                            <span>.</span>
                         </mj-social-element>
-                        <mj-social-element line-height="34px" name="youtube" href="https://www.youtube.com/watch?v=7c2p-ntm50Q" css-class="social-element-text" color="#333333">
-                            <span>Youtube</span>
+                        <mj-social-element line-height="34px" name="youtube" href="https://www.youtube.com/watch?v=7c2p-ntm50Q" css-class="social-element-text" color="#141413">
+                            <span>.</span>
                         </mj-social-element>
                     </mj-social>
 
                 </mj-column>
-            </mj-group>
 
         </mj-section>
 
-        <mj-section background-color="#141413" css-class="group_nonẹ̣̣_movile">
+        <mj-section background-color="#141413">
 
             <mj-column>
 
@@ -130,19 +97,24 @@
 
         </mj-section>
 
-        <mj-section background-color="#141413" css-class="group_nonẹ̣̣_movile">
+        <mj-section padding-bottom="0px" background-color="#141413">
 
             <mj-column>
-
-                <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Organiza:</mj-text>
                 
+                <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Organiza:</mj-text>
+
+            </mj-column>
+
+        </mj-section>
+
+        <mj-section padding-top="0px" padding-left="60px" padding-right="60px" background-color="#141413">
+            
+            <mj-column width="380px">
+
                 <mj-social>
                     <mj-social-element icon-size="101px" href="https://www.caixapopular.es/es" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/CaixaPopular_Icon.png" alt="CaixaPopular_Icon"></mj-social-element>
                     <mj-social-element icon-size="100px" href="https://www.gva.es/va/inicio/presentacion" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/GeneralitatValenciana_Icon.png" alt="GeneralitatValenciana_Icon"></mj-social-element>
                     <mj-social-element icon-size="100px" href="https://www.comunitatvalenciana.com/es/turismo-deportivo/btt-cicloturismo-y-ciclismo" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ComunitatValenciana_Icon.png" alt="ComunitatValenciana_Icon"></mj-social-element>
-                </mj-social>
-
-                <mj-social>
                     <mj-social-element icon-size="102px" href="https://www.escueladeconductores.es/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/EscuelaDeConductores_Icon.png" alt="EscuelaDeConductores_Icon"></mj-social-element>
                     <mj-social-element icon-size="100px" href="https://maximo-moto.com/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Bela_Icon.png" alt="Bela_Icon"></mj-social-element>
                     <mj-social-element icon-size="100px" href="https://arrozdacsa.com/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ArrozDacsa_Icon.png" alt="ArrozDacsa_Icon"></mj-social-element>
@@ -151,34 +123,6 @@
             </mj-column>
 
         </mj-section>
-
-        <mj-section background-color="#141413" css-class="group_nonẹ̣̣_decktop">
-                
-                <mj-column>
-
-                    <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Patrocina:</mj-text>
-                    
-                    <mj-image href="https://www.mapfre.es/particulares/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Mapfre_Icon.png" alt="Mapfre_Icon" />
-
-                </mj-column>
-
-                <mj-column>
-
-                    <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#CDCCCC">Organiza:</mj-text>
-                    
-                    <mj-social>
-                        <mj-social-element icon-size="101px" href="https://www.caixapopular.es/es" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/CaixaPopular_Icon.png" alt="CaixaPopular_Icon"></mj-social-element>
-                        <mj-social-element icon-size="100px" href="https://www.gva.es/va/inicio/presentacion" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/GeneralitatValenciana_Icon.png" alt="GeneralitatValenciana_Icon"></mj-social-element>
-                        <mj-social-element icon-size="100px" href="https://www.comunitatvalenciana.com/es/turismo-deportivo/btt-cicloturismo-y-ciclismo" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ComunitatValenciana_Icon.png" alt="ComunitatValenciana_Icon"></mj-social-element>
-                        <mj-social-element icon-size="102px" href="https://www.escueladeconductores.es/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/EscuelaDeConductores_Icon.png" alt="EscuelaDeConductores_Icon"></mj-social-element>
-                        <mj-social-element icon-size="100px" href="https://maximo-moto.com/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Bela_Icon.png" alt="Bela_Icon"></mj-social-element>
-                        <mj-social-element icon-size="100px" href="https://arrozdacsa.com/" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ArrozDacsa_Icon.png" alt="ArrozDacsa_Icon"></mj-social-element>
-                    </mj-social>
-
-                </mj-column>
-
-        </mj-section>
-
 
     </mj-body>
 

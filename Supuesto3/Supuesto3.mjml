@@ -1,37 +1,7 @@
 <mjml>
     
     <mj-head>
-        
-        <mj-style>
-
-        @media (max-width: 480px) {
-
-                .social-element-text span{
-
-                    display: none !important;
-
-                }
-
-                .group_nonẹ̣̣_movile{
-
-                    display: none !important;
-
-                }
-
-            }
-
-            @media (min-width: 481px) {
-
-                .group_nonẹ̣̣_decktop{
-
-                    display: none !important;
-
-                }
-
-            }
-
-        </mj-style>
-
+ 
     </mj-head>
 
     <mj-body>
@@ -40,7 +10,7 @@
             
             <mj-column>
                 
-                <mj-image  width="600px" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Cabecera_Email_Expojove_2024.jpg" alt="expojove-image" />
+                <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Cabecera_Email_Expojove_2024.jpg" alt="expojove-image" />
 
             </mj-column>
             
@@ -48,7 +18,7 @@
 
         <mj-section padding-bottom="40px" background-color="#F2F4F5">
             
-            <mj-column width="100%">
+            <mj-column >
 
                 <mj-text font-weight="bold" font-family="roboto" font-size="40px" color="#094745">Recordatorio de los servicios disponibles para expositores</mj-text>
 
@@ -56,71 +26,87 @@
 
         </mj-section>
 
-        <mj-section  background-color="#8DD8CE">
+        <mj-section background-color="#8DD8CE">
 
-            <mj-column>
-                <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/AutobusExpojove.png" alt="" />
-            </mj-column>
+            <mj-group>
             
-            <mj-column>
+                <mj-column>
+                    <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/AutobusExpojove.png" alt="" />
+                </mj-column>
+                
+                <mj-column>
 
-                <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#094745">
-                    Intensa campaña de comunicación y publicidad. Dentro de la cual también se incluye una plataforma para promocionar productos o servicios
-                </mj-text>
+                    <mj-text font-weight="bold" font-family="roboto" font-size="18px" color="#094745">
+                        Intensa campaña de comunicación y publicidad. Dentro de la cual también se incluye una plataforma para promocionar productos o servicios
+                    </mj-text>
 
-            </mj-column>
+                </mj-column>
             
+            </mj-group>
+
         </mj-section>
 
-        <mj-section direction="rtl" background-color="#F2F4F5">
-            
-            <mj-column>
+        <mj-section background-color="#F2F4F5">
 
-                <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ivaj.jpg" alt=""/>
+            <mj-group>
 
-            </mj-column>
+                <mj-column>
 
-            <mj-column>
+                    <mj-text font-family="roboto" font-size="18px" color="#094745">
+                        La posibilidad de montar talleres con la previa comunicación y aprobación de EXPOJOVE
+                    </mj-text>
+                    
+                </mj-column>
 
-                <mj-text font-family="roboto" font-size="20px" color="#094745">
-                    La posibilidad de montar talleres con la previa comunicación y aprobación de EXPOJOVE
-                </mj-text>
+                <mj-column>
+
+                    <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/ivaj.jpg" alt=""/>
+
+                </mj-column>
                 
-            </mj-column>
+            </mj-group>
             
         </mj-section>
 
         <mj-section background-color="#8DD8CE">
 
-            <mj-column>
-                <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/que-es-asesoramiento.jpeg" alt="" />
-            </mj-column>
-            
-            <mj-column>
+            <mj-group>
 
-                <mj-text font-weight="bold" font-family="roboto" font-size="20px" color="#094745">
-                    Servicio de asesoramiento
-                </mj-text>
+                <mj-column>
+                    <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/que-es-asesoramiento.jpeg" alt="" />
+                </mj-column>
+                
+                <mj-column>
 
-            </mj-column>
+                    <mj-text font-weight="bold" font-family="roboto" font-size="18px" color="#094745">
+                        Servicio de asesoramiento
+                    </mj-text>
+
+                </mj-column>
+                
+            </mj-group>
             
         </mj-section>
 
-        <mj-section direction="rtl" background-color="#F2F4F5">
+        <mj-section background-color="#F2F4F5">
             
-            <mj-column>
+            <mj-group>
 
-                <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/20220902_122126-1024x768.jpg" alt="" />
+                <mj-column>
+                    
+                    <mj-text font-family="roboto" font-size="18px" color="#094745">
+                        Supervición del proceso y planificación del montaje de los stands para asegurar el cumplimiento de la normativa y la correcta organización entre expositores
+                    </mj-text>
 
-            </mj-column>
+                </mj-column>
 
-            <mj-column>
-                
-                <mj-text font-family="roboto" font-size="20px" color="#094745">
-                    Supervición del proceso y planificación del montaje y desmontaje de los stands para hasegurar el cumplimiento de la normativa y la correcta organización en conjunto con otros expositores
-                </mj-text>
+                <mj-column>
 
-            </mj-column>
+                    <mj-image src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/20220902_122126-1024x768.jpg" alt="" />
+
+                </mj-column>
+     
+            </mj-group>
             
         </mj-section>
 
@@ -129,17 +115,13 @@
             <mj-column>
                 
                 <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-                    <mj-social-element color="white" line-height="34px" name="instagram" href="https://www.instagram.com/expojovevlc/" css-class="social-element-text">
-                        <span>Instagram</span>
+                    <mj-social-element  name="instagram" href="https://www.instagram.com/expojovevlc/" css-class="social-element-text">  
                     </mj-social-element>
-                    <mj-social-element color="white" line-height="34px" name="facebook" href="https://www.facebook.com/expojove.valencia/" css-class="social-element-text">
-                        <span>Facebook</span>
+                    <mj-social-element  name="facebook" href="https://www.facebook.com/expojove.valencia/" css-class="social-element-text">
                     </mj-social-element>
-                    <mj-social-element icon-size="31px" color="white" icon-size="34px" name="twitter" href="https://twitter.com/ExpoJoveVLC" css-class="social-element-text">
-                        <span>Twitter</span>
+                    <mj-social-element  name="twitter" href="https://twitter.com/ExpoJoveVLC" css-class="social-element-text">
                     </mj-social-element>
-                    <mj-social-element color="white" line-height="34px" name="youtube" href="https://www.youtube.com/@ExpojoveVLC2" css-class="social-element-text">
-                        <span>Youtube</span>
+                    <mj-social-element  name="youtube" href="https://www.youtube.com/@ExpojoveVLC2" css-class="social-element-text">
                     </mj-social-element>
                 </mj-social>
 
@@ -157,66 +139,34 @@
 
         </mj-section>   
 
-        <mj-section css-class="group_nonẹ̣̣_movile" padding-left="46px" padding-right="46px" padding-top="0px" background-color="#003087">
+        <mj-section padding-top="0px" padding-left="24px" padding-right="24px" background-color="#003087">
             
-            <mj-column>
-
-                <mj-image height="100px" padding="0" href="" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/AjuntamentValencia_IconBlue.png" alt="AjuntamentValencia"/>
-                
-            </mj-column>
-
-            <mj-column>
-
-                <mj-image height="100px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/FestesValencia_IconBlue.png" alt="FestesValencia"/>
-                
-            </mj-column>
-
-            <mj-column>
-
-                <mj-image height="100px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Expojove_IconBlue.png" alt="Expojove_IconBlue"/>
-                
-            </mj-column>
-
-            <mj-column>
-
-                <mj-image height="100px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/FeriaValencia_IconBlue.png" alt="FeriaValencia_IconBlue"/>
-                
-            </mj-column>
-
-        </mj-section>
-
-        <mj-section css-class="group_nonẹ̣̣_decktop" padding-left="46px" padding-right="46px" padding-top="0px" background-color="#003087">
-            
-            <mj-group width="400px">
+            <mj-group>
 
                 <mj-column>
 
-                    <mj-image height="100px" padding="0" href="" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/AjuntamentValencia_IconBlue.png" alt="AjuntamentValencia"/>
+                    <mj-image height="100px" width="141px" padding="0" href="" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/AjuntamentValencia_IconBlue.png" alt="AjuntamentValencia"/>
                     
                 </mj-column>
 
                 <mj-column>
 
-                    <mj-image height="100px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/FestesValencia_IconBlue.png" alt="FestesValencia"/>
-                    
-                </mj-column>
-
-            </mj-group>
-
-            <mj-group width="400px">
-
-                <mj-column>
-
-                    <mj-image height="100px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Expojove_IconBlue.png" alt="Expojove_IconBlue"/>
+                    <mj-image height="100px" width="141px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/FestesValencia_IconBlue.png" alt="FestesValencia"/>
                     
                 </mj-column>
 
                 <mj-column>
 
-                    <mj-image height="100px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/FeriaValencia_IconBlue.png" alt="FeriaValencia_IconBlue"/>
+                    <mj-image height="100px" width="141px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/Expojove_IconBlue.png" alt="Expojove_IconBlue"/>
                     
                 </mj-column>
 
+                <mj-column>
+
+                    <mj-image height="100px" width="141px" padding="0" src="https://raw.githubusercontent.com/Jugi82/Practicas/refs/heads/main/img/FeriaValencia_IconBlue.png" alt="FeriaValencia_IconBlue"/>
+                    
+                </mj-column>
+                            
             </mj-group>
 
         </mj-section>
